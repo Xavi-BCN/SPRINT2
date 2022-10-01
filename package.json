@@ -1,0 +1,23 @@
+{
+  "name": "sprint2",
+  "version": "1.0.0",
+  "description": "IT ACADEMY SPRINT2 - Learning about bootstrap and SASS.\r Duplicate a sample web using bootstrap and SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavi-BCN/SPRINT2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xavi-BCN/SPRINT2/issues"
+  },
+  "homepage": "https://github.com/Xavi-BCN/SPRINT2#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}

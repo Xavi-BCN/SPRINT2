@@ -9,10 +9,14 @@ To whatch  video:
   How to install Bootstrap in your project of VSC:
   https://www.youtube.com/watch?v=kANNWN_--UA&list=PLnunbwZjHqMO-JII_HBf5TAzdzaBJP34w&index=5
   
-  commands list to install bootstrap 5:
+    commands list to install bootstrap 5:
   
-  - npm install -y (create json files)
+  - npm init -y (create package-json files)
   - npm install bootstrap
+
+  Note: We need a plugin called "Live Sass Compiler" for vsc
+
+
 
 
   
