@@ -1,18 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./SASS/custom.css">
+    <link rel="stylesheet" href="./SASS/main.css">
+
     <title>Sprint2 Bootstrap and SASS</title>
 </head>
+
 <body>
-    
+
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-md bg-white">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logo-bookmark.svg" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">PRICING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-secondary">LOGIN</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-12 order-1 text-sm-center col-md-6 order-md-0 mt-md-5 text-md-start">
+                    <h2>A Simple Bookmark Manager</h2>
+                    <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                        vero
+                        quibusdam, modi
+                        fugiat alias, eum dolore odit ipsum ut obcaecati porro id. Quis, quod?</p>
+                    <button type="button" class="btn btn-primary">Get it on Chrome</button>
+                    <button type="button" class="btn btn-light">Get it on Firefox</button>
+                </div>
+                <div class="col-12 order-0 mt-3 col-md-5 order-md-1 col-lg-6">
+                    <img src="./img/illustration-hero.svg" class="img-fluid" alt="...">
+                    <!-- <div class="back-image"></div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    </div>
 
-<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
