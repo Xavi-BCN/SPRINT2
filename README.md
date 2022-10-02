@@ -16,6 +16,8 @@ To whatch  video:
 
   Note: We need a plugin called "Live Sass Compiler" for vsc
 
+  - npm i bootstrap-icons (install icons of Bootstrap in our project)
+
 
 
 
