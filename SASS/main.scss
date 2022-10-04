@@ -21,12 +21,6 @@ body{
 $primary:#5265E1 ;
 $secondary: #FA5959;
 
-$theme-colors: (
-  "primary": $primary,
-  "secondary": $secondary
-);
-
-
 
 /* .nav-tabs {
   --bs-nav-tabs-border-width: 1px;
@@ -71,5 +65,13 @@ $theme-colors: (
    
  } */
 
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+.nav-tabs .nav-link.active {
+  color: blue;
+}
+ .nav-tabs .nav-item.show .nav-link{
+  color:red
+ }
