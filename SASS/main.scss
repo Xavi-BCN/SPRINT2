@@ -69,9 +69,14 @@ $secondary: #FA5959;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-.nav-tabs .nav-link.active {
+/* .nav-tabs .nav-link.active {
   color: blue;
 }
  .nav-tabs .nav-item.show .nav-link{
   color:red
- }
+ } */
+
+ .nav-tabs{
+  border: 2px 2px 2px;
+  border-color: red;
+}
